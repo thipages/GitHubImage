@@ -11,8 +11,8 @@ Call it with the following GET parameters
 
 If one of the parameter `owner` or `repo` or `field` is incorrect, the image will contain "error" as text
 
-# Usage
-eg in a readme file
+# Exaples
+in a readme github file for example
 
 ```html
 <img src="mysite.com/index.php?owner=thipages&repo=GitHubImage&field=description"/>
