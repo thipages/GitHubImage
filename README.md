@@ -10,3 +10,10 @@ Call it with the following GET parameters
 - `bgColor` : background color in hex (default : #000000)
 
 If one of the parameter `owner` or `repo` or `field` is incorrect, the image will contain "error" as text
+
+# Usage (eg in a readme file)
+
+```html
+<img src="mysite.com/index.php?owner=thipages&repo=GitHubImage&field=description"/>
+<img src="mysite.com/index.php?owner=thipages&repo=GitHubImage&field=created_at"/>
+```
